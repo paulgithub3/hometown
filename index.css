@@ -1,0 +1,74 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    background-image: url("bayonne.jpg");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: #004d00;
+    box-shadow: 5px 5px 5px #004d00;
+    background-color: red;
+    border: 5px solid #004d00;
+     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #004d00;
+    text-decoration: underline red;
+    font-weight: bold;
+    margin-left: 60px
+}
+
+p { 
+    color: #004d00;
+    text-shadow: 0px 0px 1px black;
+    margin-left: 10px;
+    margin-right: 100px;
+    background: rgba(136, 255, 239, 0.5) 
+    
+}
+
+.text {
+    display: block;
+    font-family: roman;
+    font-size: 20px;
+}
+
+@font-face {
+    src: url("RomanAntique-Italic.ttf");
+    font-family: roman;
+}
+
+.embleme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#emb {
+    width: 80px;
+}
+
+.lists {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+    }
+    
+    ul {
+           color: #004d00;
+    text-shadow: 0px 0px 1px black;
+    margin-left: 10px;
+    margin-right: 100px;
+    background: rgba(136, 255, 239, 0.5);
+    }
+    
